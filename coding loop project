@@ -1,0 +1,12 @@
+list1 = [ ]
+n = int(input("Enter the  number of elements in your list  "))
+print("Enter the elements in your list")
+for i in range(n):
+    element = int(input(" "))
+    list1.append(element)
+print("your list is" , list1)
+even = [ ]
+for i in list1:
+    if(i%2==0):
+        even.append(i)
+print("even numbers in your list are" , even)
